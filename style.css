@@ -56,3 +56,16 @@ body.drag
     margin: auto;
     width: 200px;
 }
+
+#link {
+ border: 0;
+  font-size: 15px;
+  color: red;
+  font-weight: normal;
+  position: fixed;
+  bottom: 40px;
+  margin: auto;
+  width: 200px;
+  margin-left: -100px;
+  left: 50%;
+}
