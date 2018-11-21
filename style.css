@@ -58,16 +58,4 @@ body.drag
     width: 200px;
 }
 
-#link {
- border: 0;
-  font-size: 15px;
-  color: black;
-  font-weight: normal;
-  position: fixed;
-  bottom: 60px;
-  margin: auto;
-  width: 300px;
-  margin-left: -100px;
-  left: 50%;
-  
-}
+
