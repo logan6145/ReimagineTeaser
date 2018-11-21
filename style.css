@@ -35,10 +35,11 @@ body.drag
   color: red;
   font-weight: bold;
   position: fixed;
-  bottom: 30px;
+  bottom: 50px;
   padding: 30px;
   margin: auto;
-  width: 200px;
+  width: 300px;
+  height: 100px;
   margin-left: -100px;
   left: 50%;
   box-shadow: 0 0 15px rgba(0,0,0,0.3);
@@ -60,12 +61,13 @@ body.drag
 #link {
  border: 0;
   font-size: 15px;
-  color: blue;
+  color: black;
   font-weight: normal;
   position: fixed;
-  bottom: 40px;
+  bottom: 60px;
   margin: auto;
-  width: 200px;
+  width: 300px;
   margin-left: -100px;
   left: 50%;
+  
 }
