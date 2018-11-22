@@ -32,6 +32,8 @@
 	 
 	 //This should be done after the scene has finished loading..
 document.querySelector('a-scene').sceneEl.camera = new THREE.PerspectiveCamera();
+	 document.querySelector('a-scene').sceneEl.camera.near = 1;
+document.querySelector('a-scene').sceneEl.camera.far = 100;
  </script>
  
  <script>
