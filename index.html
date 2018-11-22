@@ -29,11 +29,6 @@
 	renderer.domElement.style.top = '0px'
 	renderer.domElement.style.left = '0px'
 	document.body.appendChild( renderer.domElement );
-	 
-	 //This should be done after the scene has finished loading..
-document.querySelector('a-scene').sceneEl.camera = new THREE.PerspectiveCamera();
-	 document.querySelector('a-scene').sceneEl.camera.near = 1;
-document.querySelector('a-scene').sceneEl.camera.far = 100;
  </script>
  
  <script>
@@ -111,7 +106,7 @@ document.querySelector('a-scene').sceneEl.camera.far = 100;
                    shadowCameraVisible: true;"
             position="-5 3 1.5"></a-entity>
  <a-marker preset="custom" type="pattern" url="logan6145.github.io/mega_scene/pattern-marker (12).patt">
-  <a-gltf-model src="url(logan6145.github.io/mega_scene/GreenLabels.glb)" rotation="0 270 0" scale: "1 1 1" shadow="receive: true">
+  <a-gltf-model src="url(logan6145.github.io/mega_scene/cameraGreenLabels.glb)" rotation="0 270 0" scale: "1 1 1" shadow="receive: true">
  </a-gltf-model>
 </a-marker>
   <a-camera-static/>
