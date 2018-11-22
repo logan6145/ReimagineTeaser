@@ -85,6 +85,12 @@
   </div>
   
  <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; light=defaultLightsEnabled: false;"foo>
+  <a-entity light="type: ambient; intensity: 0.5;"></a-entity>
+  <a-entity light="type: directional;
+                   castShadow: true;
+                   intensity: 0.4;
+                   shadowCameraVisible: true;"
+            position="-5 3 1.5"></a-entity>
  <a-marker preset="custom" type="pattern" url="logan6145.github.io/mega_scene/pattern-marker (12).patt">
   <a-gltf-model src="url(logan6145.github.io/mega_scene/TealSkutroHorizontalLabels.glb)" rotation="0 270 0" shadow="receive: true">
  </a-gltf-model>
