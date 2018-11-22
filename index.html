@@ -29,6 +29,9 @@
 	renderer.domElement.style.top = '0px'
 	renderer.domElement.style.left = '0px'
 	document.body.appendChild( renderer.domElement );
+	 
+	 //This should be done after the scene has finished loading..
+document.querySelector('a-scene').sceneEl.camera = new THREE.PerspectiveCamera();
  </script>
  
  <script>
