@@ -26,7 +26,7 @@
         this.el.effect = new THREE.VREffect(this.el.renderer);
     },
     remove: function () {
-        var antialias = this.el.getAttribute('antialias') === 'true';
+        var antialias = this.el.getAttribute('antialias') === 'false';
         this.el.renderer = new THREE.WebGLRenderer({ canvas: this.el.canvas, antialias: antialias || window.hasNativeWebVRImplementation, logarithmicDepthBuffer: true, alpha: true, preserveDrawingBuffer: false });
     }
 });
