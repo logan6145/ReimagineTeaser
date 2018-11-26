@@ -19,7 +19,7 @@
  <script>
   AFRAME.registerComponent('renderer', {
     init: function () {
-        var antialias = this.el.getAttribute('antialias') === 'true';
+        var antialias = this.el.getAttribute('antialias') === 'false';
         this.el.renderer = new THREE.WebGLRenderer({ canvas: this.el.canvas, antialias: antialias || window.hasNativeWebVRImplementation, logarithmicDepthBuffer: true, alpha: true, preserveDrawingBuffer: true });
         this.el.renderer.setPixelRatio(window.devicePixelRatio);
         this.el.renderer.sortObjects = false;
