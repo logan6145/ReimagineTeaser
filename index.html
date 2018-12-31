@@ -97,8 +97,10 @@
       <p>[Hold the Skutro from Footboard and Rotate]</p>
      <p>[Pinch to Zoom in and Zoom out]</p>
   </div> 
- <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; defaultLightsEnabled: false; antialias: false;"foo>
-  <a-entity light="type: ambient; intensity: 1.5;"></a-entity>
+ <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; defaultLightsEnabled: false; antialias: true;"foo>
+  <a-entity light="castshadow: true"></a-entity>
+   <a-entity shadow="cast: true"></a-entity>
+  <a-entity shadow="receive: true"></a-entity>
  <a-marker preset="custom" type="pattern" url="logan6145.github.io/mega_scene/pattern-marker (12).patt">
   <a-gltf-model src="url(logan6145.github.io/mega_scene/new.glb)" rotation="0 315 0" scale: "2 2 2" shadow="receive: true">
  </a-gltf-model>
